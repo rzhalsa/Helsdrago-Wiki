@@ -1,0 +1,27 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <script src="../Scripts/roller.js"></script>
+</head> 
+<nav>
+    <div class="navbar">
+        <a href="#"><b>Home</b></a>
+        <a href="#"><b>World</b></a>
+        <a href="#"><b>Factions</b></a>
+        <a href="#"><b>Locations</b></a>
+        <a href="#"><b>Inhabitants</b></a>
+        <a href="#"><b>Characters</b></a>
+        <a href="#"><b>Enemies</b></a>
+        <a href='../README.txt'><b>Help</b></a>
+        <div class="dice-roller">
+            <input type="number" id="dice-input" placeholder="dX.." min="1" max="100">
+            <button id="roll-button" onclick="roll()">Roll</button>
+        </div>
+        <p id="roll-result"><b>Result: dX = ___</b></p>
+        <div class="searchbar">
+            <input type="text" id="search-input" placeholder="Search..">
+            <button onclick="">x</button>
+        </div>            
+    </div>   
+</nav>  

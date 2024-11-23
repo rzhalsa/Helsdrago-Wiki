@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="rzhalsa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage - Helsdrago Wiki</title>
+        <link rel="stylesheet" href="CSS/main.css">
+        <script src="Scripts/txt_fetch.js"></script>
+    </head>
+    <body>
+        <iframe src="HTML/nav.html" frameborder="0" width="100%" sandbox="allow-scripts allow-same-origin"></iframe>
+        <div class="intro">
+            <p><h1>Welcome to the Helsdrago Wiki!</h1></p><br>
+            <p id="intro"></p>
+            <script>window.onload = function() {fetchText('Text/intro.txt');};</script>
+        </div>
+        <div class="thankYouBrendon">
+            <p id="appreciation"><i>Made with love and appreciation for the world of Helsdrago. Thank you for all the hard work Brendon!</i></p>
+        </div>     
+    </body>
+</html>

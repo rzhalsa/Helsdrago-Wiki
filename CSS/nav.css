@@ -1,0 +1,56 @@
+.navbar
+{
+    background-color: rgb(63, 71, 78);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+}
+
+.navbar a
+{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding: 7px 14px;
+}
+
+.navbar p {
+    font-size: 22px;
+    color: white;
+    padding-left: 10px;
+}
+
+.navbar a:hover {
+    background-color: purple;
+    color: black;
+}
+
+input[type=text], input[type=number], button {
+    font-size: 16px;
+}
+
+.searchbar {
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.dice-roller {
+    padding-left: 30px;
+}
+
+button
+{
+    background: #ddd;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ccc;
+}
